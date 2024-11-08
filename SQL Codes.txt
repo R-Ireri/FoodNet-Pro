@@ -1,0 +1,11 @@
+CREATE TABLE `food_distribution`.`admin` ( `Administrator_ID` INT NOT NULL AUTO_INCREMENT , `Fullname` TEXT NOT NULL , `Email_Address` TEXT NOT NULL , `Position` TEXT NOT NULL , `Password` TEXT NOT NULL , PRIMARY KEY (`Administrator_ID`), UNIQUE (`Email_Address`)) ENGINE = InnoDB;
+
+ALTER TABLE `admin` ADD `Recovery_Question` TEXT NOT NULL AFTER `Position`, ADD `Recovery_Answer` TEXT NOT NULL AFTER `Recovery_Question`;
+
+INSERT INTO `admin` (`Administrator_ID`, `Fullname`, `Email_Address`, `Position`, `Password`) VALUES (NULL, 'Grace Kingori', 'grace.kingori2021@strathmore.edu', 'System Administrator', '145414');
+
+CREATE TABLE `food_distribution`.`users` ( `User_ID` INT NOT NULL AUTO_INCREMENT , `Fullname` TEXT NOT NULL , `Email_Address` TEXT NOT NULL , `Phone_Number` TEXT NOT NULL , `Recovery_Question` TEXT NOT NULL , `Recovery_Answer` TEXT NOT NULL , `Password` TEXT NOT NULL , PRIMARY KEY (`User_ID`), UNIQUE (`Email_Address`)) ENGINE = InnoDB;
+
+CREATE TABLE `food_distribution`.`goods_donated` ( `Dontation_ID` INT NOT NULL AUTO_INCREMENT , `Commodity_ID` INT NOT NULL , `User_ID` INT NOT NULL , `Quantity` TEXT NOT NULL , `Date_Donated` TEXT NOT NULL , PRIMARY KEY (`Dontation_ID`)) ENGINE = InnoDB;
+
+ALTER TABLE `goods_donated` ADD `Location` TEXT NOT NULL AFTER `Date_Donated`;
