@@ -527,7 +527,7 @@ printData();
             <a href="">0765432122</a>
             <br>
             <label>Email Us:</label>
-            <a href="mailto:grace.kingori2021@strathmore.edu">grace.kingori2021@strathmore.edu</a>
+            <a href="mailto:rita.ireri2021@strathmore.edu">rita.ireri2021@strathmore.edu</a>
             <br>
                </div>
             </div>
@@ -561,7 +561,7 @@ printData();
                                      0765432122
                                  </li>
                                  <li><i class="fa fa-envelope" aria-hidden="true"></i>
-                                    <a href="mailto:grace.kingori2021@strathmore.edu" style="font-size: 12px;">grace.kingori2021@strathmore.edu</a>
+                                    <a href="mailto:rita.ireri2021@strathmore.edu" style="font-size: 12px;">rita.ireri2021@strathmore.edu</a>
                                  </li>
                               </ul>
                            </div>
@@ -573,7 +573,7 @@ printData();
                <div class="container">
                   <div class="row d_flex">
                      <div class="col-md-8">
-                        <p>© 2022 All Rights Reserved. Design by Grace King’ori 145414.</p>
+                        <p>© 2022 All Rights Reserved. Design by Rita Ireri 145900.</p>
                      </div>
                   </div>
                </div>
