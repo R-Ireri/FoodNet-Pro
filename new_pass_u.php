@@ -160,7 +160,7 @@ if (!isset($_SESSION['Email']) && !isset($_SESSION['rq'])) {
                <div class="container">
                   <div class="row d_flex">
                      <div class="col-md-8">
-                        <p>© 2022 All Rights Reserved. Design by Rita King’ori 145414.</p>
+                        <p>© 2022 All Rights Reserved. Design by Rita Ireri 145900.</p>
                      </div>
                   </div>
                </div>
