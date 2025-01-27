@@ -148,7 +148,7 @@ if (!isset($_SESSION['Email']) && !isset($_SESSION['rq'])) {
                                      0765432122
                                  </li>
                                  <li><i class="fa fa-envelope" aria-hidden="true"></i>
-                                    <a href="mailto:grace.kingori2021@strathmore.edu" style="font-size: 12px;">grace.kingori2021@strathmore.edu</a>
+                                    <a href="mailto:rita.Ireri2021@strathmore.edu" style="font-size: 12px;">rita.Ireri2021@strathmore.edu</a>
                                  </li>
                               </ul>
                            </div>
@@ -160,7 +160,7 @@ if (!isset($_SESSION['Email']) && !isset($_SESSION['rq'])) {
                <div class="container">
                   <div class="row d_flex">
                      <div class="col-md-8">
-                        <p>© 2022 All Rights Reserved. Design by Grace King’ori 145414.</p>
+                        <p>© 2022 All Rights Reserved. Design by Rita King’ori 145414.</p>
                      </div>
                   </div>
                </div>
